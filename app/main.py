@@ -13,3 +13,6 @@ def add(a: int, b: int):
 @app.get("/multiply/{a}/{b}")
 def multiply(a: int, b: int):
     return {"result": a * b}
+@app.get("/test")
+def test_endpoint():
+    return {"test": "success"}
