@@ -1,3 +1,4 @@
+key="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"
 from fastapi import FastAPI
 
 app = FastAPI()
